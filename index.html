@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Styles.css">
+    <title>Survey Form</title>
+</head>
+
+<body>
+    <div class="container">
+        <form action="" method="post">
+            <h2>Customer Survey Form</h2>
+
+            <div class="content">
+                <div class="input-box">
+                    <label for="name">First Name</label>
+                    <input type="text" placeholder="Enter Your First Name" name="fname" required>
+                </div>
+                <div class="input-box">
+                    <label for="name">Last Name</label>
+                    <input type="text" placeholder="Enter Your Last Name" name="lname" required>
+                </div>
+                <div class="input-box">
+                    <label for="email">Email</label>
+                    <input type="email" placeholder="Enter Your Email Address" name="email" required>
+                </div>
+                <div class="input-box">
+                    <label for="phone">Phone Number</label>
+                    <input type="tel" placeholder="Enter Your Phone Number" name="phonenumber" id="phonenumber"
+                        required>
+                </div>
+                <div class="input-box">
+                    <label for="profession">Profession</label>
+                    <input type="text" placeholder="Enter Your Profession" name="profession" id="profession">
+                </div>
+                <div class="input-box">
+                    <label for="date">Date of Birth</label>
+                    <input type="date" name="dob" id="dateofbirth" required>
+
+                </div>
+                <div class="input-box">
+                    <label for="country">Country</label>
+                    <select name="country" id="" required>
+                        <div class="country-category">
+                            <option value="Select">Select</option>
+                            <option value="ind">India</option>
+                            <option value="china">China</option>
+                            <option value="pak">Pakistan</option>
+                            <option value="Can">Canada</option>
+                            <option value="italy">Italy</option>
+                        </div>
+                    </select>
+
+                </div>
+                <span class="gender-title">Gender</span>
+                <div class="gender-category">
+
+                    <label for="gender">Male</label>
+                    <input type="radio" name="gender" id="male" required>
+                    <label for="gender">Female</label>
+                    <input type="radio" name="gender" id="female" required>
+                    <label for="gender">Other</label>
+                    <input type="radio" name="gender" id="other" required>
+
+                </div>
+                <!-- <div class="input-box">
+                    <label for="date">Date of Birth</label>
+                    <input type="date" name="dob" id="dateofbirth" required>
+
+                </div> -->
+                <!-- <div class="input-box">
+                    <label for="profession">Profession</label>
+                    <input type="text" name="profession" id="profession">
+                </div> -->
+                <!-- <div class="input-box">
+                    <label for="country">Country</label>
+                    <select name="country" id="" required>
+                        <option value="Select">Select</option>
+                        <option value="ind">India</option>
+                        <option value="china">China</option>
+                        <option value="pak">Pakistan</option>
+                        <option value="Can">Canada</option>
+                        <option value="italy">Italy</option>
+                    </select>
+
+                </div> -->
+                <div class="button-container">
+                    <button type="submit">Submit</button>
+
+                </div>
+                <div class="button-container">
+
+                    <button type="reset">Reset</button>
+                </div>
+
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
